@@ -1,19 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+
 function App() {
   return (
-    <div>
-      <header>
-        <p>
-          Edit
-          {' '}
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route exact path="/" element={<h1 className="centralize">Home</h1>} />
+        <Route
+          path="/greetings"
+          element={<h1 className="centralize">Greeting</h1>}
+        />
+      </Routes>
+    </Router>
   );
 }
 
