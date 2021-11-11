@@ -16,12 +16,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.link,
+.link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.active-link {
+  font-weight: bold;
+}
+
+.centralize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }

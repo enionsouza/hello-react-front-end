@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://www.microverse.org/">
+    <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
+  </a>
+  <a href="https://github.com/enionsouza/hello-react-front-end">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/enionsouza/hello-react-front-end/develop?color=blue&style=flat-square">
+  </a>
+  <a href="https://github.com/enionsouza/hello-react-front-end">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/enionsouza/hello-react-front-end?color=cyan&label=%E2%98%85%20stars%20&style=flat-square">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hello React (Front-End)!
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+The main goals for this exercise are:
 
-### `yarn start`
+- Implement a connection between a Ruby on Rails back-end and ReactJS front-end.
+- Understand the pros and cons of different approaches of connecting Ruby on Rails back-end with ReactJS front-end.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In this project, only the ReactJS front-end part was implemented. The back-end part of the project can be found in [this repo](https://github.com/enionsouza/hello-rails-back-end/).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Below, a screenshot of the app is presented:
 
-### `yarn test`
+<p align="center">
+<img style="border: 1px solid black;" src="./docs/Screenshot.png" width="700" alt="Greetings page">
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `yarn build`
+- ReactJS, Redux
+- VisualStudio Code, Git, & GitHub
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Pre-requisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- NodeJs (v. 14.17)
+- YarnJs (v. 1.22.10)
+- Git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `yarn eject`
+1. In your terminal, in the folder of your preference, type the following bash command to clone this repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+git clone git@github.com:enionsouza/hello-react-front-end.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Now that you have already cloned the repo run the following commands to get the project up and running:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+cd hello-react-front-end
+yarn
+npx browserslist@latest --update-db
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. Now, on your terminal, run:
 
-## Learn More
+```sh
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This should start your local server in [http://localhost:3000/](http://localhost:3000/). Now, you can go to your browser and visit this page, but for this app to execute properly, you need to set up the back-end part (API) which can be found in [this repo](https://github.com/enionsouza/hello-rails-back-end/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To stop the server, hit `<CTRL> + C` on your keyboard.
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **Ênio Neves de Souza**
 
-### Analyzing the Bundle Size
+- GitHub: [@enionsouza](https://github.com/enionsouza)
+- Twitter: [@enionsouza](https://twitter.com/enionsouza)
+- LinkedIn: [Enio Neves de Souza](https://www.linkedin.com/in/enio-neves-de-souza/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contributing
 
-### Making a Progressive Web App
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to check the [issues page](https://github.com/enionsouza/hello-react-front-end/issues).
 
-### Advanced Configuration
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Give a ⭐️ if you like this project!
 
-### Deployment
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
