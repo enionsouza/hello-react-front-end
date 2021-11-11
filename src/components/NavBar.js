@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => (
-  <ul>
+  <ul style={{ listStyle: 'none', display: 'flex', gap: '2em' }}>
     <li>
       <NavLink to="/" className="link">
         Home
