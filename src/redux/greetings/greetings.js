@@ -1,4 +1,4 @@
-const URL = 'localhost:4200/greetings';
+const URL = 'http://localhost:4200/greetings';
 
 // Action types
 const LOAD_GREETING = 'LOAD_GREETING';
